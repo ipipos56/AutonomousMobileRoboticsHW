@@ -10,7 +10,7 @@ To test our controller, we ran the simulation in RViz and checked the trajectori
 ## Results and Analysis
 We tested our path following controller with K_p = 0.4 and K_theta = 3 values. For each set of values, we observed the robot's trajectory and analyzed its performance.
 
-![](graphNew.png)
+![](plot.png)
 
 With this K_p and K_theta the robot was not able to converge to the desired path. The robot's trajectory was significantly off from the desired path, and it could not follow the path accurately.
 
