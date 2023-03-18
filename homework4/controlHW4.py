@@ -61,7 +61,7 @@ class ControlStrategy(Node):
             prj_pnt = self.P @ np.array([-y, 0, x, 1])
             prj_pnt = prj_pnt[:2] / prj_pnt[2]
 
-            if z < 5:
+            if z < 10:
                 color = [255, 0, 0]
 
                 # Round projected point coordinates and check if they are within image bounds
